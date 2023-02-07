@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  padding-top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ff8542;
+  align-self: center;
+}
+
+.todo-conatiner {
+  width: 90%;
+}
